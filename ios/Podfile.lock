@@ -1,0 +1,141 @@
+PODS:
+  - app_store_score (0.0.1):
+    - Flutter
+  - CL_ShanYanSDK (2.3.6.6)
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - fluwx (0.0.1):
+    - Flutter
+    - WechatOpenSDK-XCFramework (~> 2.0.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - open_app_settings (0.0.1):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.1.1):
+    - Flutter
+  - ReachabilitySwift (5.0.0)
+  - shanyan (2.3.4.3):
+    - CL_ShanYanSDK (~> 2.3.6.2)
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - talkingdata_sdk_plugin (0.0.1):
+    - Flutter
+  - tobias (0.0.1):
+    - Flutter
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+  - WechatOpenSDK-XCFramework (2.0.2)
+
+DEPENDENCIES:
+  - app_store_score (from `.symlinks/plugins/app_store_score/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `Flutter`)
+  - fluwx (from `.symlinks/plugins/fluwx/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - open_app_settings (from `.symlinks/plugins/open_app_settings/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shanyan (from `.symlinks/plugins/shanyan/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - talkingdata_sdk_plugin (from `.symlinks/plugins/talkingdata_sdk_plugin/ios`)
+  - tobias (from `.symlinks/plugins/tobias/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CL_ShanYanSDK
+    - FMDB
+    - ReachabilitySwift
+    - WechatOpenSDK-XCFramework
+
+EXTERNAL SOURCES:
+  app_store_score:
+    :path: ".symlinks/plugins/app_store_score/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: Flutter
+  fluwx:
+    :path: ".symlinks/plugins/fluwx/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  open_app_settings:
+    :path: ".symlinks/plugins/open_app_settings/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shanyan:
+    :path: ".symlinks/plugins/shanyan/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  talkingdata_sdk_plugin:
+    :path: ".symlinks/plugins/talkingdata_sdk_plugin/ios"
+  tobias:
+    :path: ".symlinks/plugins/tobias/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  app_store_score: 1af585dcd9444264816a9a142fbdc27067d48956
+  CL_ShanYanSDK: 2cd7bc00e0ff58f038a6c049854809449bc77c19
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  fluwx: e9e728cfdb80e82dac5f4ff974b1901a7939dcd0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  image_picker_ios: 58b9c4269cb176f89acea5e5d043c9358f2d25f8
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  open_app_settings: a36e0e8fea6240feca62675f77ba8168675376d8
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  permission_handler_apple: e76247795d700c14ea09e3a2d8855d41ee80a2e6
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  shanyan: 93119824c35056abd73aafab3c6fd2e078bae63d
+  shared_preferences_foundation: e2dae3258e06f44cc55f49d42024fd8dd03c590c
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  talkingdata_sdk_plugin: afe59648f75aa36bb694de23f991bc5971677703
+  tobias: 2aded9b83e3663b907360a800d8e3c13284f25c5
+  url_launcher_ios: ae1517e5e344f5544fb090b079e11f399dfbe4d2
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+  WechatOpenSDK-XCFramework: acdeeda129efbef9532bca8a10c24e1b4b8c7d69
+
+PODFILE CHECKSUM: 7d19a1d7ca353ff5c8494b2b55e811ebe5a43b05
+
+COCOAPODS: 1.12.1

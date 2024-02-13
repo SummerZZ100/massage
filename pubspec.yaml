@@ -1,0 +1,153 @@
+name: massage
+description: 成人技师按摩保健 S
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  flutter_localizations:
+    sdk: flutter
+
+
+    # The following adds the Cupertino Icons font to your application.
+    # Use with the CupertinoIcons class for iOS style icons.
+
+  cupertino_icons: ^1.0.5 # icon
+
+  dio: ^4.0.6 # dio网络请求
+
+  flutter_screenutil: ^5.5.3+2 #屏幕尺寸（不通屏幕的适配）
+
+  device_info: ^2.0.3 # 设备信息
+
+  package_info: ^2.0.2 # apk/ipa包信息
+
+  pull_to_refresh: ^2.0.0 # 下拉刷新
+
+  http: ^0.13.4 # http网络请求
+
+  event_bus: ^2.0.0 # 总线通知
+
+  permission_handler: ^10.0.0 # any # ^7.2.0 # 手机设备权限
+
+  common_utils: ^2.1.0 # 常用
+  
+  cached_network_image: ^3.2.1  # 网络加载图片
+
+  webview_flutter: ^3.0.4 #^2.8.0 # webView网页加载  3.0.4
+
+  flutter_swiper_view: ^1.1.8
+
+  shared_preferences: ^2.0.15  # 本地信息存储
+
+  path_provider: ^2.0.11 # 本地文件目录
+
+  image_picker: ^0.8.6 # 照片/相册选择
+
+  url_launcher: ^6.1.7 # any # ^6.0.5 # 跳转到第三方app/拨打电话
+
+  percent_indicator: ^4.2.2 # 进度条
+
+  nuts_activity_indicator: ^1.0.0 #网络加载动画
+
+#  progress_dialog: ^1.2.4 # 加载框
+
+  overlay_support: ^2.0.1 #顶部弹出通知
+
+  encrypt: ^5.0.1 #
+
+  flutter_staggered_grid_view: ^0.6.1 # 瀑布流
+
+  tuple: ^2.0.0 # 元组
+
+  flutter_html: ^3.0.0-alpha.5 #^2.2.1 # html标签展示
+
+  open_app_settings: ^2.0.1  # 跳转到系统设置页
+
+  date_format: ^2.0.6
+
+  get: ^4.6.6
+
+  flutter_datetime_picker_plus: ^2.1.0
+
+  intl: ^0.18.1
+
+  location: ^5.0.0
+
+  connectivity_plus: any
+
+  talkingdata_sdk_plugin:
+    git:
+      url: https://gitee.com/summerz100/talkingdata_sdk_plugin_zxs.git
+
+  app_store_score:
+    git:
+      url: https://github.com/SummerZZ100/app_store_score.git
+
+  shanyan:
+    git:
+      url: https://gitee.com/chuanglan253/CLShanYan_Flutter.git
+      path: shanyan
+      ref: v2.3.4.4
+
+  fluwx: ^3.9.0+2 # 微信sdk调用插件
+
+  tobias: 2.4.1  #支付宝支付
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - resource/images/
+
+  fonts:
+    - family: PingFang_Regular
+      fonts:
+        - asset: resource/fonts/pingfang_regular.ttf
